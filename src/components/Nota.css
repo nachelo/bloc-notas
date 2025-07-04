@@ -1,0 +1,189 @@
+.nota-container {
+	background-color: #fff;
+	border-left: 6px solid;
+	border-bottom: 6px solid;
+	border-radius: 16px;
+	padding: 16px 20px 32px 20px;
+	width: 280px;
+	position: relative;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+	word-break: break-word;
+}
+
+.nota-container:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.nota-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.nota-titulo {
+	font-size: 18px;
+	width: 100%;
+	font-weight: 700;
+	color: #2d2d2d;
+	margin: 0;
+}
+
+.nota-color {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	border: 2px solid #333;
+	cursor: pointer;
+}
+
+.nota-fechas {
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.nota-fecha {
+	font-weight: bold;
+}
+
+.nota-etiqueta {
+	font-size: 10px;
+	color: #555;
+}
+
+.nota-textarea {
+	width: 100%;
+	max-width: 100%;
+	font-size: 14px;
+	font-family: inherit;
+	border: none;
+	background: transparent;
+	outline: none;
+	line-height: 1.5;
+	resize: none;
+	overflow: hidden;
+	padding: 6px 0;
+	word-break: break-word;
+	overflow-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+.nota-descripcion {
+	font-size: 14px;
+	color: #444;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	white-space: pre-wrap;
+	line-height: 1.4;
+}
+
+.nota-eliminar {
+	position: absolute;
+	bottom: 6px;
+	right: 10px;
+	background: none;
+	border: none;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.nota-color-wrapper {
+	position: relative;
+}
+
+.color-selector {
+	position: absolute;
+	top: 30px;
+	right: 0;
+	background-color: #555;
+	border: 1px solid #ccc;
+	padding: 8px;
+	border-radius: 8px;
+	z-index: 999;
+	width: 160px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.color-selector p {
+	font-size: 10px;
+	color: #fff;
+	margin-bottom: 8px;
+}
+
+.color-preset-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin-bottom: 8px;
+}
+
+.color-preset {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 1px solid #000;
+	cursor: pointer;
+}
+
+.color-custom-input {
+	display: flex;
+	gap: 6px;
+}
+
+.color-custom-input input {
+	flex: 1;
+	padding: 4px;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #c7bebe;
+}
+
+.color-custom-input button {
+	background-color: #3b82f6;
+	color: white;
+	border: none;
+	padding: 4px 8px;
+	cursor: pointer;
+	margin-left: 1.5px;
+	font-size: 12px;
+	border-radius: 4px;
+	word-break: normal;
+}
+
+.color-custom-input button:hover {
+	background-color: #2563eb;
+}
+
+.nota-input-titulo {
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+	border: none;
+	outline: none;
+	background: transparent;
+}
+
+.nota-textarea {
+	width: 100%;
+	font-size: 13px;
+	font-family: inherit;
+	resize: none;
+	border: none;
+	outline: none;
+	background: transparent;
+	color: #222;
+	min-height: 60px;
+}
+
+.nota-input-fecha {
+	font-size: 12px;
+	border: none;
+	outline: none;
+	background: transparent;
+	color: #222;
+}
