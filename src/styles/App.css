@@ -24,9 +24,20 @@
 	background-color: #4f46e5;
 }
 
+.boton-crear img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
 .contenedor-notas {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 	gap: 1.5rem;
 	align-items: flex-start;
+}
+
+.contenedor-notas > div {
+	transition: transform 0.15s ease;
 }
