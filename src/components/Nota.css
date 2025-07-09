@@ -131,11 +131,13 @@
 
 .color-custom-input {
 	display: flex;
-	gap: 6px;
+	gap: 4px;
+	align-items: center;
 }
 
 .color-custom-input input {
 	flex: 1;
+	max-width: 70px;
 	padding: 4px;
 	font-size: 12px;
 	border: 1px solid #ccc;
@@ -149,14 +151,17 @@
 	border: none;
 	padding: 4px 8px;
 	cursor: pointer;
-	margin-left: 1.5px;
 	font-size: 12px;
 	border-radius: 4px;
-	word-break: normal;
 }
 
 .color-custom-input button:hover {
 	background-color: #2563eb;
+}
+
+.color-random-btn {
+	padding: 4px 6px;
+	font-size: 14px;
 }
 
 .nota-input-titulo {
@@ -166,6 +171,13 @@
 	border: none;
 	outline: none;
 	background: transparent;
+}
+
+.nota-drag-handle {
+	cursor: grab;
+	font-size: 18px;
+	margin-right: 8px;
+	user-select: none;
 }
 
 .nota-textarea {
