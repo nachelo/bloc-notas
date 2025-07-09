@@ -4,7 +4,8 @@
 	border-bottom: 6px solid;
 	border-radius: 16px;
 	padding: 16px 20px 32px 20px;
-	width: 280px;
+	width: 420px;
+	min-height: 140px;
 	position: relative;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 	transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -24,11 +25,12 @@
 }
 
 .nota-titulo {
-	font-size: 18px;
+	font-size: 22px;
 	width: 100%;
 	font-weight: 700;
 	color: #2d2d2d;
 	margin: 0;
+	text-align: center;
 }
 
 .nota-color {
@@ -165,7 +167,8 @@
 }
 
 .nota-input-titulo {
-	font-size: 20px;
+	font-size: 22px;
+	text-align: center;
 	font-weight: bold;
 	width: 100%;
 	border: none;
